@@ -1,38 +1,87 @@
+/* General styling:  */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling related to nav:  */
+
+.navbar {
+  background-color: aqua;
+  padding: 1%;
+  position: fixed;
+  top: 0;
+  right: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-button-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling related to profile:  */
+
+.profile {
+  background-color: #004643;
+  color: #fffffe;
+  padding: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headshot{
+  width: 20vh;
+  height: 20vh;
+  border-radius: 10%;
+}
+
+/* Styling related to portfolio section: */
+
+.portfolio{
+  background: #abd1c6;
+  padding: 1%;
+}
+
+.project-card {
+  height: 50vh;
+  width: 60vh;
+  background-color: #004643;
+  margin: 15vh;
+  color: #fffffe
+}
+
+.screenshot {
+  height: 20vh;
+  width: 30vh;
+}
+
+.all-projects-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stack-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Styling related to resume section:  */
+
+.resume-div{
+  padding: 2%;
+  background-color: #004643;
+  color: #fffffe;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume{
+  width: 60vh;
+  height: 80vh;
 }
