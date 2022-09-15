@@ -2,22 +2,53 @@
 
 .App {
   text-align: center;
+  font: 'sans-serif';
 }
 
 /* Styling related to nav:  */
 
 .navbar {
-  background-color: aqua;
   padding: 1%;
   position: fixed;
   top: 0;
-  right: 0
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-button-container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 2%;
+}
+
+/* Styling related to socials: */
+
+.socialbar{
+  /* background-color: aqua; */
+  padding: 1%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.social-bar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-icon{
+  height: 5vh;
+  width: 3vw;
+}
+
+#email:hover{
+
 }
 
 /* Styling related to profile:  */
@@ -26,12 +57,33 @@
   background-color: #004643;
   color: #fffffe;
   padding: 5%;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .headshot{
-  width: 20vh;
-  height: 20vh;
+  width: 40vh;
+  height: 40vh;
   border-radius: 10%;
+}
+
+.headshot-container{
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
+
+}
+
+/* .inner-headshot-container{
+  grid-row: 2;
+} */
+
+.profile-text-container{
+  grid-column: 1;
+  grid-row: 2;
 }
 
 /* Styling related to portfolio section: */
@@ -42,11 +94,15 @@
 }
 
 .project-card {
-  height: 50vh;
+  height: 70vh;
   width: 60vh;
   background-color: #004643;
   margin: 15vh;
-  color: #fffffe
+  color: #fffffe;
+  border-radius: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .screenshot {
@@ -61,10 +117,16 @@
   flex-wrap: wrap;
 }
 
+.tech-icon{
+  height: 8vh;
+  width: 3vw;
+}
+
 .stack-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 10px;
 }
 
 /* Styling related to resume section:  */
@@ -79,6 +141,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .resume{

@@ -10,8 +10,7 @@ export default function ProjectCard(props) {
       <div className="stack-container">
       {props.stack.map((tech) => (
         <div>
-          {/* <img src="stack-icon" alt="language icon"/> */}
-          <p>{tech}</p>
+          <img src={tech} alt="language icon" className="tech-icon"/>
         </div>
       ))}
       </div>
