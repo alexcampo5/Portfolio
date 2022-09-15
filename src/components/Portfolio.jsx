@@ -5,6 +5,8 @@ import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
 import js from '../assets/js.png'
 import express from '../assets/express.png'
+import sql from '../assets/database.png'
+import mongo from '../assets/pngwing.com.png'
 
 export default function Portfolio () {
 
@@ -21,21 +23,21 @@ export default function Portfolio () {
       screenshot: '',
       description: '',
       deployment: '',
-      stack: [react, express, 'Mongo DB']
+      stack: [react, js, mongo]
     },
     {
       title: 'thriftR',
       screenshot: '',
       description: '',
       deployment: '',
-      stack: [react, express, 'PostgreSQL']
+      stack: [react, js, sql]
     },
     {
-      title: 'Capstone',
+      title: 'My-Pantry',
       screenshot: '',
-      description: '',
+      description: 'An app designed to help inspire the everyday home cook to take whats in their pantry and create special meals from everyday ingredients.',
       deployment: '',
-      stack: [react, 'Python3', 'Django']
+      stack: [react, js, sql]
     },
   ]
 
