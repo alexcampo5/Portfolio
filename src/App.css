@@ -1,5 +1,9 @@
 /* General styling:  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   font: 'sans-serif';

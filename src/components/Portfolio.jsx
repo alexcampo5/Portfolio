@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard"
 import triviaTime from '../assets/TriviaTimeScreenshot.png'
-import react from '../assets/react.png'
+// import react from '../assets/react.png'
 import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
 import js from '../assets/js.png'
@@ -21,21 +21,21 @@ export default function Portfolio () {
     {
       title: 'World Soccer DB',
       screenshot: '',
-      description: '',
+      description: 'A quick database client built in a week designed to help soccer fans keep track of their favorite players.',
       deployment: '',
       stack: [react, js, mongo]
     },
     {
       title: 'thriftR',
       screenshot: '',
-      description: '',
+      description: `A social media app designed for people to share their thrift finds. Group project where I designed the structure of the front end including CRUD functionality.`,
       deployment: '',
       stack: [react, js, sql]
     },
     {
       title: 'My-Pantry',
       screenshot: '',
-      description: 'An app designed to help inspire the everyday home cook to take whats in their pantry and create special meals from everyday ingredients.',
+      description: `An app designed to help inspire the quintessential home cook to take what's in their pantry and create special meals from everyday ingredients.`,
       deployment: '',
       stack: [react, js, sql]
     },
