@@ -23,21 +23,21 @@ export default function Portfolio () {
       screenshot: '',
       description: 'A quick database client built in a week designed to help soccer fans keep track of their favorite players.',
       deployment: '',
-      stack: [react, js, mongo]
+      stack: ['react', js, mongo]
     },
     {
       title: 'thriftR',
       screenshot: '',
       description: `A social media app designed for people to share their thrift finds. Group project where I designed the structure of the front end including CRUD functionality.`,
       deployment: '',
-      stack: [react, js, sql]
+      stack: ['react', js, sql]
     },
     {
       title: 'My-Pantry',
       screenshot: '',
       description: `An app designed to help inspire the quintessential home cook to take what's in their pantry and create special meals from everyday ingredients.`,
       deployment: '',
-      stack: [react, js, sql]
+      stack: ['react', js, sql]
     },
   ]
 
