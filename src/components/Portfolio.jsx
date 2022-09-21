@@ -4,7 +4,7 @@ import triviaTime from '../assets/TriviaTimeScreenshot.png'
 import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
 import js from '../assets/js.png'
-import express from '../assets/express.png'
+// import express from '../assets/express.png'
 import sql from '../assets/database.png'
 import mongo from '../assets/pngwing.com.png'
 
