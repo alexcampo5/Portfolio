@@ -5,9 +5,10 @@ import react from '../assets/react (1).png'
 import html from '../assets/html-5.png'
 import css from '../assets/css-3.png'
 import js from '../assets/js.png'
-// import express from '../assets/express.png'
 import sql from '../assets/database.png'
 import mongo from '../assets/pngwing.com.png'
+import soccer from '../assets/soccerdb.png'
+import thriftr from '../assets/thriftrhome.png'
 
 export default function Portfolio () {
 
@@ -21,14 +22,14 @@ export default function Portfolio () {
     },
     {
       title: 'World Soccer DB',
-      screenshot: '',
+      screenshot: soccer,
       description: 'A quick database client built in a week designed to help soccer fans keep track of their favorite players.',
       deployment: '',
       stack: [react, js, mongo]
     },
     {
       title: 'thriftR',
-      screenshot: '',
+      screenshot: thriftr,
       description: `A social media app designed for people to share their thrift finds. Group project where I designed the structure of the front end including CRUD functionality.`,
       deployment: '',
       stack: [react, js, sql]
