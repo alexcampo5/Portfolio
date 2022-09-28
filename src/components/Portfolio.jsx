@@ -38,7 +38,7 @@ export default function Portfolio () {
       title: 'My-Pantry',
       screenshot: myPantry,
       description: `An app designed to help inspire the quintessential home cook to take what's in their pantry and create special meals from everyday ingredients.`,
-      deployment: 'https://ac-my-pantry.netlify.app/',
+      deployment: 'https://my-pantry-abc.netlify.app/',
       stack: [react, js, sql]
     },
   ]
