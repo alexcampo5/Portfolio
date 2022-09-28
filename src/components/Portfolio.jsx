@@ -31,7 +31,7 @@ export default function Portfolio () {
       title: 'thriftR',
       screenshot: thriftr,
       description: `A social media app designed for people to share their thrift finds. Group project where I designed the structure of the front end including CRUD functionality.`,
-      deployment: '',
+      deployment: 'https://thriftr-frontend.netlify.app',
       stack: [react, js, sql]
     },
     {
